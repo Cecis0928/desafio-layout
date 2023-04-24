@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Android";
+    src: url("../ex002/fontes/idroid.otf") format("opentype");
+    font-weight: normal;
+}
+
+body {
+    background-color: #93AEC2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #105a92;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header>p {
+    color: white;
+}
+
+header>h1 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    background-color: #014f8b;
+}
+
+nav>a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav>a:hover {
+    background-color: azure;
+    color: #93AEC2;
+}
+
+main h1 {
+    color: #0683e9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+}
+
+main h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0683e9;
+    background-color: #105a92;
+    padding: 2px 6px;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.492);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+main strong {
+    color: #014f8b;
+    font-weight: bolder;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+aside {
+    background-color: #71bbf3c5;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.47);
+}
+
+aside>h3 {
+    background-color: #0683e9;
+    color: white;
+    border-radius: 5px;
+    margin: -10px -10px 0px -10px;
+}
+
+aside>ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: #014f8b;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}

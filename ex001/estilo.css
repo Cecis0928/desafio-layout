@@ -1,0 +1,77 @@
+@charset "UTF-8 ";
+
+.ceciliavitor {
+    background-color: rgb(227, 176, 176);
+    text-align: center;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px rgba(233, 177, 177, 0.62);
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+    text-indent: 20px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.468);
+
+
+}
+
+h1 {
+    background-color: rgba(227, 134, 134, 0.654);
+    color: white;
+    text-shadow: 1px 1px 0px white;
+    text-shadow: 2px 2px 1px rgb(243, 193, 193);
+}
+
+p {
+    color: black;
+    font-weight: lighter;
+
+}
+
+h2 {
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    text-align: center;
+
+    border-radius: 20px;
+    border-style: double;
+    border-color: rgba(227, 134, 134, 0.751);
+    border-width: 10px;
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    margin: auto;
+
+    text-shadow: 2px 2px 2px rgba(18, 18, 18, 0.216);
+
+}
+h3{
+    background-color: white;
+    width: 50%;
+    height: 20%;
+    text-align: center;
+
+    margin: auto;
+
+    border-radius: 20px;
+    border-style:solid;
+    border-color: rgb(227, 134, 134, 0.751);
+    border-width: 10px;
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    outline-width: 5px;
+    outline-style: solid;
+    outline-color: white;
+
+    text-shadow: 2px 2px 2px rgba(18, 18, 18, 0.216);
+}
